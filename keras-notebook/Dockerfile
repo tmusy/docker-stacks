@@ -5,4 +5,7 @@ MAINTAINER Thierry Musy <thierry.musy@gmail.com>
 
 RUN pip --no-cache-dir install \
         keras \
-        pandas
+        pandas \
+        Pillow \
+        bcolz \
+        h5py
